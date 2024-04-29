@@ -1,0 +1,41 @@
+1. What is Docker ?
+->  Docker is a containerization platform that allows to package an application with all its dependencies into one single entity as single container which can be easily deployed and run on any machine that supports docker. This makes it easier to devlop , test , deploy applications in different environments. It uses container technology to isolate processes and provide a lightweight, portable solution for application deployment.
+
+2. What are the Features of Docker?
+->  Docker features containerization for providing consistent deployment , using resources efficient shared kernel utilization, and provides seamless portability across environments. It enhances the security through isolation of containers supporting versioning and automated builds. It offers a rich number of pre-built images for streamlined application development and deployment.
+
+3. What are the Pros and Cons of Docker?
+Pros of Docker
+Portability: It enables consistent deployment across various environments.
+Resource Efficiency: Optimizing of resource usage with a shared kernel will be done effectively.
+Isolation: It provides security through isolation of process and file system.
+Automation: it supports automated builds and streamlining development workflow
+Cons of Docker
+Learning Curve: Initial learning of the containerization concepts will bit new to understand.
+Additional Resources: Containers use some more resources compared to running applications directly on host.
+Security Concerns: Misconfigurations may lead to the security risks if not properly managed.
+Container Orchestration Complexity: Management of orchestration tools will be complex for larger-scale deployments.
+
+4. Name and Explain the Components of Docker.
+Docker consists of the following as a docker components :
+Docker Engine: Docker engine is the runtime that executes containers.
+Docker Images: Docker images are lightweight, readable templates containing executable packages that include the application with its dependencies.
+Docker Containers: Docker containers are standardized , encapsulated environments that run applications/instances of Docker images.
+Docker Compose: Docker compose is a tool for defining and running multi-containered Docker applications.
+
+5. Name and Explain the State of a Docker Container.
+A state of a docker container directly influences its runtime characteristics and how it interacts with the underlying Operating system. A Docker container will be in one of these three states:
+A docker container will be in running state it is when actively executing.
+A container in paused state means that container is temporarily halted.
+The container will be in stopped state when it is inactive.
+
+6. Can You tell What is the Functionality of a Hypervisor?
+A hypervisor is a virtualization software that helps in running multiple operating systems (Guest OS) on a single physical host system by providing an isolation between the virtual machines (VMs) and manages their resources.
+
+7. Difference between Docker and Virtualization?
+Docker uses containerization concept, which shares the host OS kernel for efficiency and speed whereas Virtualization involves running complete OS instances ( Guest Operating systems ) on a hypervisor, which may have more overhead on using resources. The following figure ilustrate on both the Docker and Virtualization Architectures.
+
+ 
+
+
+
